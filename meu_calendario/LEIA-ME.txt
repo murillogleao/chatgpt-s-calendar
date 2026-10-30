@@ -1,0 +1,21 @@
+MEU CALENDÁRIO — PACOTE PARA INSTALAÇÃO
+
+O que vem aqui:
+- index.html: aplicativo
+- manifest.json e icon.svg: nome, ícone e configuração de instalação
+- sw.js: cache para abrir offline depois da primeira visita
+
+IMPORTANTE:
+Para instalar como PWA, os arquivos precisam estar publicados em um endereço HTTPS. Abrir index.html diretamente no celular permite testar o calendário, mas não oferece a instalação completa como aplicativo.
+
+Como instalar no iPhone:
+1. Publique a pasta em um serviço de hospedagem estática HTTPS (por exemplo, GitHub Pages).
+2. Abra o endereço no Safari.
+3. Toque em Compartilhar > Adicionar à Tela de Início.
+
+Como instalar no Android:
+1. Publique a pasta em um serviço de hospedagem estática HTTPS.
+2. Abra o endereço no Chrome.
+3. Use o menu ⋮ > Instalar app ou Adicionar à tela inicial.
+
+Os dados são salvos no armazenamento local do navegador e não sincronizam entre aparelhos. Limpar os dados do navegador pode apagar as tarefas. Faça uma cópia de segurança se forem importantes.
